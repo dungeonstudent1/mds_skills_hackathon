@@ -2,22 +2,15 @@
 
 ## Description
 
-#TODO: describe **dff-TEMPLATE-skill** 
+The following dialog agent responds to typical job-related questions in Russian or English languages. 
+Typical execution time is 0.004-0.005 sec.
+
 ## Quickstart
 
-```bash
-pip install -r requirements.txt
-```
-Run interactive mode
-```bash
-python run_interactive.py
-```
-Run tests
-```bash
-python run_test.py
-```
-## Resources
-#TODO: resources
-* Execution time: ????
-* Starting time: ????
-* RAM: ???? MB
+- install deepspeech (pip install deepspeech, pip instal -r -requirements). Better to do it with python 3.9.7
+- download deepspeech model and scorer v 0.9.3 from https://github.com/mozilla/DeepSpeech/releases
+- copy files to `dff_TEMPLATE_skill/asr/`
+- run `python run_asr.py` to try out the program
+
+
+
