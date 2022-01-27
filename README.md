@@ -15,6 +15,7 @@ Write dialogue skill (like Alice or Alexa) on DF Framework (DFF):
 - look at `examples/dff_funfact_skill` as a trivial example
 - install deepspeech (pip install deepspeech, pip instal -r -requirements). Better to do it with python3.9.7
 - download deepspeech model and scorer v 0.9.3 from https://github.com/mozilla/DeepSpeech/releases
+- copy files to `dff_TEMPLATE_skill/asr/`
 - run `python run_asr.py`
 
 
